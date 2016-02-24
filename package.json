@@ -1,0 +1,26 @@
+{
+    "name": "visualforce",
+    "displayName": "Visualforce",
+    "description": "Salesforce Visualforce",
+    "version": "0.0.1",
+    "publisher": "JohnAaronNelson",
+    "engines": {
+        "vscode": "^0.10.6"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "visualforce",
+            "aliases": ["Visualforce", "visualforce"],
+            "extensions": [".page"],
+            "configuration": "./visualforce.configuration.json"
+        }],
+        "grammars": [{
+            "language": "visualforce",
+            "scopeName": "text.html.visualforce",
+            "path": "./syntaxes/visualforce.tmLanguage"
+        }]
+    }
+}
