@@ -1,14 +1,21 @@
 {
-	"comments": {
-		// symbol used for single line comment. Remove this entry if your language does not support line comments
-		"lineComment": "//",
-		// symbols used for start and end a block comment. Remove this entry if your language does not support block comments
-		"blockComment": [ "/*", "*/" ]
-	},
-	// symbols used as brackets
-	"brackets": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"]
-	]
+    "comments": {
+        "lineComment": "",
+        "blockComment": ["<!--", "-->"]
+    },
+    "brackets": [
+        ["<", ">"]
+    ]
+
+    // enhancedBrackets: [{
+    //     tokenType: 'tag.tag-$1.xml',
+    //     openTrigger: '>',
+    //     open: /<(\w[\w\d]*)([^\/>]*(?!\/)>)[^<>]*$/i,
+    //     closeComplete: '</$1>',
+    //     closeTrigger: '>',
+    //     close: /<\/(\w[\w\d]*)\s*>$/i
+    // }],
+
+    // autoClosingPairs:  [['\'', '\''], ['"', '"'] ]
+
 }

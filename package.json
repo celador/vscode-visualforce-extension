@@ -2,7 +2,7 @@
     "name": "visualforce",
     "displayName": "Visualforce",
     "description": "Salesforce Visualforce",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "JohnAaronNelson",
     "engines": {
         "vscode": "^0.10.6"
@@ -14,13 +14,27 @@
         "languages": [{
             "id": "visualforce",
             "aliases": ["Visualforce", "visualforce"],
-            "extensions": [".page"],
+            "extensions": [".page", ".email", ".component"],
             "configuration": "./visualforce.configuration.json"
         }],
         "grammars": [{
             "language": "visualforce",
-            "scopeName": "text.html.visualforce",
-            "path": "./syntaxes/visualforce.tmLanguage"
+            "scopeName": "text.visualforce.basic",
+            "path": "./syntaxes/visualforce.plist"
         }]
     }
 }
+
+// .cls
+// .component
+// .email
+// .layout
+// .object
+// .object
+// .translation
+// .page
+// .profile
+// .report
+// .scontrols
+// .trigger
+// .workflow
