@@ -1,3 +1,2 @@
-# README
-## This is the README for your extension "visualforce" 
-# vscode-visualforce-extension
+# Visualforce (Salesforce) Syntax highlighting for Visualforce pages
+![Alt text](/images/example.png "Hello World")
