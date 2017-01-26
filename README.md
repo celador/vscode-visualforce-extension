@@ -1,2 +1,2 @@
 # Visualforce (Salesforce) Syntax highlighting for Visualforce pages
-![Alt text](/images/example.png "Hello World")
+![Visualforce Syntax highlighting](https://github.com/Celador/vscode-apex-extension/raw/master/images/example.png "Visualforce Syntax highlighting")
